@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Spatie\ShapesArea\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ShapesAreaCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'shapes-area';
 
     public $description = 'My command';
 

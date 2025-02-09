@@ -1,31 +1,31 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "spatie/shapes-area",
+    "description": "This is my package shapes-area",
     "keywords": [
-        ":vendor_name",
+        "spatie",
         "laravel",
-        ":package_slug"
+        "shapes-area"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/spatie/shapes-area",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "asalahouredu",
+            "email": "ahmed.salah@our-edu.net",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^10.0||^11.0"
     },
     "require-dev": {
+        "larastan/larastan": "^2.9",
         "laravel/pint": "^1.14",
         "nunomaduro/collision": "^8.1.1||^7.10.0",
-        "larastan/larastan": "^2.9",
         "orchestra/testbench": "^9.0.0||^8.22.0",
-        "pestphp/pest": "^3.0",
+        "pestphp/pest": "^3.7",
         "pestphp/pest-plugin-arch": "^3.0",
         "pestphp/pest-plugin-laravel": "^3.0",
         "phpstan/extension-installer": "^1.3",
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Spatie\\ShapesArea\\": "src/",
+            "Spatie\\ShapesArea\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Spatie\\ShapesArea\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Spatie\\ShapesArea\\ShapesAreaServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ShapesArea": "Spatie\\ShapesArea\\Facades\\ShapesArea"
             }
         }
     },
